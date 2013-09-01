@@ -42,7 +42,7 @@ DISABLE_CORRECTION="true"
 # Example format: plugins=(rails git textmate ruby lighthouse)
 plugins=(git)
 
-export EDITOR=VIM
+export EDITOR="mvim -f"
 
 source $ZSH/oh-my-zsh.sh
 
