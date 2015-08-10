@@ -42,7 +42,7 @@ DISABLE_CORRECTION="true"
 # Example format: plugins=(rails git textmate ruby lighthouse)
 plugins=(git)
 
-export EDITOR="mvim -f"
+export EDITOR="st -w"
 
 source $ZSH/oh-my-zsh.sh
 
@@ -55,6 +55,7 @@ export PYTHONPATH=$PYTHONPATH:.
 
 ssh-add ~/.ssh/id_rsa 2> /dev/null
 
-alias vi='mvim --remote-tab-silent'
 alias ssh='ssh -A'
+alias dev='ssh -A renlijie@opera.tok'
 
+export PATH=$PATH:~/bin
